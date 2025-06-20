@@ -14,7 +14,7 @@ app.post('/support', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send("Sophia GPT support backend is live.");
+  res.send("Sophia is live.");
 });
 
 app.listen(PORT, () => {
